@@ -17,7 +17,7 @@ const app = express()
 // middlewares
 app.use(express.json())
 app.use(cors({
-  origin: 'artifex-frontend-axx9.vercel.app', // allow only your frontend
+  origin: 'artifex-frontend.vercel.app', // allow only your frontend
   credentials: true,               // if using cookies or auth headers
 }));
 
