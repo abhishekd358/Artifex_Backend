@@ -11,3 +11,5 @@ const userSchema = new mongoose.Schema({
 
 
 export const UserDB = mongoose.model('user', userSchema);
+
+// this is the user model for the application, defining the schema for user data
